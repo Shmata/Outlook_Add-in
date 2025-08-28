@@ -27,6 +27,8 @@ With this add-in, users can securely interact with Microsoft Graph services (suc
    ```bash
    git clone https://github.com/shmata/Outlook_Add-in.git
    cd Outlook_Add-in
+   code .
+   // Open the msal.ts file and enter your client secret and tenant id
    npm install
    npm run start
    ```
