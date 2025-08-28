@@ -22,7 +22,7 @@ With this add-in, users can securely interact with Microsoft Graph services (suc
 - [npm](https://www.npmjs.com/) (v 10.8.2)  
 - Outlook desktop app **or** a Microsoft 365 account to use [Outlook on the web](https://outlook.office.com/mail/)
 
-### Installation
+### Installation and run
 1. Clone the repository:
    ```bash
    git clone https://github.com/shmata/Outlook_Add-in.git
