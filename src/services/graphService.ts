@@ -44,7 +44,7 @@ export async function getTheCurrentMessage(encodedId: string, token?: string): P
     token = await getAccessToken();
   }
   console.log(encodedId);
-  const res = await fetch(`https://graph.microsoft.com/v1.0/me/messages/QUFNa0FETXdPVGc1TkRWakxXTmlNekl0TkdZNVpTMDRNemN5TFdOaE56VTFObVJoWm1RM1pRQkdBQUFBQUFCTXhVd2J4UFREVGI5MlpIVDJaeG9MQndDcWdMOE1UR0FaVDZqNTVIRkRrQlM0QUFBQUFBRU1BQUNxZ0w4TVRHQVpUNmo1NUhGRGtCUzRBQUFCQUo5Z0FBQT0=`, {
+  const res = await fetch(`https://graph.microsoft.com/v1.0/me/messages/${encodedId}`, {
         headers: { Authorization: `Bearer ${token}` },
     });
     if (!res.ok) {
