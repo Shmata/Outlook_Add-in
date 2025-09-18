@@ -1,0 +1,24 @@
+2025/09/15-19:56:01.453 2658 Reusing MANIFEST C:\Host\office\flexify\Flexif AI\.vscode\edge_owa_profile\Default\IndexedDB\https_outlook.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/15-19:56:01.454 2658 Recovering log #7
+2025/09/15-19:56:01.454 2658 Reusing old log C:\Host\office\flexify\Flexif AI\.vscode\edge_owa_profile\Default\IndexedDB\https_outlook.office.com_0.indexeddb.leveldb/000007.log 
+2025/09/15-19:56:01.458 7170 Level-0 table #11: started
+2025/09/15-19:56:01.459 7170 Level-0 table #11: 1469 bytes OK
+2025/09/15-19:56:01.460 7170 Delete type=0 #7
+2025/09/15-19:56:01.460 7228 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 164 : 1
+2025/09/15-19:56:01.460 7228 Compacting 1@0 + 1@1 files
+2025/09/15-19:56:01.462 7228 Generated table #12@0: 57 keys, 1455 bytes
+2025/09/15-19:56:01.462 7228 Compacted 1@0 + 1@1 files => 1455 bytes
+2025/09/15-19:56:01.463 7228 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/15-19:56:01.463 7228 Delete type=2 #11
+2025/09/15-19:56:01.463 7170 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 164 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/15-19:56:03.431 5384 Level-0 table #14: started
+2025/09/15-19:56:03.433 5384 Level-0 table #14: 535 bytes OK
+2025/09/15-19:56:03.434 5384 Delete type=2 #8
+2025/09/15-19:56:03.434 5384 Delete type=0 #10
+2025/09/15-19:56:03.434 7170 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 182 : 1
+2025/09/15-19:56:03.434 7170 Compacting 1@0 + 1@1 files
+2025/09/15-19:56:03.435 7170 Generated table #15@0: 57 keys, 1443 bytes
+2025/09/15-19:56:03.435 7170 Compacted 1@0 + 1@1 files => 1443 bytes
+2025/09/15-19:56:03.436 7170 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/15-19:56:03.436 7170 Delete type=2 #14
+2025/09/15-19:56:03.436 7170 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 182 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

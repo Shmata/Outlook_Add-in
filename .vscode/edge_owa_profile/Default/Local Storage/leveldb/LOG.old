@@ -1,0 +1,9 @@
+2025/09/15-19:49:05.052 6c48 Reusing MANIFEST C:\Host\office\flexify\Flexif AI\.vscode\edge_owa_profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/09/15-19:49:05.056 6c48 Recovering log #4
+2025/09/15-19:49:05.057 6c48 Reusing old log C:\Host\office\flexify\Flexif AI\.vscode\edge_owa_profile\Default\Local Storage\leveldb/000004.log 
+2025/09/15-19:49:29.312 5634 Level-0 table #8: started
+2025/09/15-19:49:29.332 5634 Level-0 table #8: 60719 bytes OK
+2025/09/15-19:49:29.334 5634 Delete type=0 #4
+2025/09/15-19:50:01.521 5634 Level-0 table #10: started
+2025/09/15-19:50:01.528 5634 Level-0 table #10: 60965 bytes OK
+2025/09/15-19:50:01.531 5634 Delete type=0 #7

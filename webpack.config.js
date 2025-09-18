@@ -16,7 +16,7 @@ async function getHttpsOptions() {
 module.exports = async (env, options) => {
   const dev = options.mode === "development";
   const config = {
-    devtool: "source-map",
+  devtool: "source-map",
     entry: {
       polyfill: ["core-js/stable", "regenerator-runtime/runtime"],
       react: ["react", "react-dom"],
@@ -58,6 +58,7 @@ module.exports = async (env, options) => {
             filename: "assets/[name][ext][query]",
           },
         },
+  // ...existing rules...
       ],
     },
     plugins: [
