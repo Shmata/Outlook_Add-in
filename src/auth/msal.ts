@@ -2,13 +2,9 @@ import { PublicClientApplication, type Configuration } from "@azure/msal-browser
 
 const msalConfig: Configuration = {
   auth: {
-    /* clientId: "4fa634d0-d0eb-4e93-ba60-11202871091d",  // from Azure app registration
-    // authority must point to Azure AD (tenant or common), not to localhost
-    authority: "https://login.microsoftonline.com/614a3022-85c5-41b0-8544-44baff944166",
-    // redirectUri should be the add-in taskpane URL registered in Azure
-    redirectUri: "https://localhost:3000/taskpane.html" */
-    clientId: "1869ede3-2b24-47ea-a5c1-0eee6327df9a",  // from Azure app registration
-    authority: "https://login.microsoftonline.com/77b82cb6-96cf-4c9f-81b5-fe2a70e55d58",
+
+    clientId: "<YOUR_CLIENT_ID>",  // from Azure app registration
+    authority: "https://login.microsoftonline.com/<YOUR_CLIENT_ID>",
     // redirectUri should be the add-in taskpane URL registered in Azure
     redirectUri: "https://localhost:3000/taskpane.html"
   },
