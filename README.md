@@ -22,6 +22,10 @@ With this add-in, users can securely interact with Microsoft Graph services (suc
 - [npm](https://www.npmjs.com/) (v 10.8.2)  
 - Outlook desktop app **or** a Microsoft 365 account to use [Outlook on the web](https://outlook.office.com/mail/)
 
+### SharePoint Connectivity
+To connect it to SharePoint you need to register an app in Azure. To do so, go to the azure portl and select **App Registration** and simply register and app. 
+Then open **MSAL.ts** file `(which is inside the auth folder)` and replace the Client ID of your registered app with the one in file. 
+
 ### Installation and run
 1. Clone the repository:
    ```bash
